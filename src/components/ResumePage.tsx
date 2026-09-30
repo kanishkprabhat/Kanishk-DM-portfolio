@@ -207,6 +207,46 @@ export const ResumePage: React.FC<ResumePageProps> = ({ onBackToHome }) => {
               </div>
 
               {/* Project 2 */}
+              <div className="bg-[#181818]/80 p-5 sm:p-6 rounded-xl border border-white/5 relative print:bg-neutral-50 print:border-neutral-200">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-2.5">
+                  <h3 className="text-sm sm:text-base font-semibold text-[#E1E0CC] print:text-black flex items-center gap-2">
+                    JSN Silicon Valley — Meta Ads WhatsApp Lead Generation
+                    <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 print:border-neutral-300 print:text-neutral-800">
+                      Real Client
+                    </span>
+                  </h3>
+                  <span className="text-xs text-gray-500 font-mono print:text-neutral-600">
+                    Sep 2026
+                  </span>
+                </div>
+
+                {/* Key Metrics Chips */}
+                <div className="flex flex-wrap gap-2 my-3 print:hidden">
+                  <span className="text-[11px] font-mono px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-primary">
+                    Spend: ₹4,287.42
+                  </span>
+                  <span className="text-[11px] font-mono px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-primary">
+                    238 Conversations (@ ₹18.01)
+                  </span>
+                  <span className="text-[11px] font-mono px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-primary">
+                    Reach: 83,608 (190,564 Impressions)
+                  </span>
+                </div>
+
+                <ul className="list-disc list-outside pl-4 space-y-1.5 text-xs sm:text-sm text-gray-300 print:text-neutral-700">
+                  <li>
+                    Ran a Meta WhatsApp lead-generation campaign for a residential solar company in Sambhal, managing campaign structure, targeting, creative strategy, launch, and performance analysis.
+                  </li>
+                  <li>
+                    Generated 238 messaging conversations at ₹18.01/conversation from ₹4,287.42 spend, with 190,564 impressions and 83,608 reach.
+                  </li>
+                  <li>
+                    Analyzed creative and placement performance to identify lower-cost conversation acquisition opportunities.
+                  </li>
+                </ul>
+              </div>
+
+              {/* Project 3 */}
               <div className="bg-[#181818]/80 p-5 sm:p-6 rounded-xl border border-white/5 print:bg-neutral-50 print:border-neutral-200">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-2">
                   <h3 className="text-sm sm:text-base font-semibold text-[#E1E0CC] print:text-black flex items-center gap-2">
@@ -219,26 +259,6 @@ export const ResumePage: React.FC<ResumePageProps> = ({ onBackToHome }) => {
                 <p className="text-xs sm:text-sm text-gray-300 print:text-neutral-700 leading-relaxed">
                   Planned a top-of-funnel awareness campaign covering audience segmentation, custom intent, geographic targeting, creative angles, budget assumptions, KPIs, landing-page considerations, and remarketing.
                 </p>
-              </div>
-
-              {/* Project 3 */}
-              <div className="bg-[#181818]/80 p-5 sm:p-6 rounded-xl border border-white/5 print:bg-neutral-50 print:border-neutral-200">
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-2">
-                  <h3 className="text-sm sm:text-base font-semibold text-[#E1E0CC] print:text-black flex items-center gap-2">
-                    Digital Marketing Course — YouTube Lead Generation
-                    <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-white/5 text-gray-400 border border-white/10 print:border-neutral-300 print:text-neutral-800">
-                      Simulated
-                    </span>
-                  </h3>
-                </div>
-                <ul className="list-disc list-outside pl-4 space-y-1.5 text-xs sm:text-sm text-gray-300 print:text-neutral-700">
-                  <li>
-                    Planned and configured a Google Ads video lead-generation campaign targeting Delhi, Noida, and Ghaziabad on a simulated ₹1,000/day budget.
-                  </li>
-                  <li>
-                    Researched audience segments, YouTube search intent, and channels, then developed a 30-second video ad concept.
-                  </li>
-                </ul>
               </div>
             </div>
           </section>
@@ -295,6 +315,17 @@ export const ResumePage: React.FC<ResumePageProps> = ({ onBackToHome }) => {
                 <div>
                   <div className="flex items-baseline justify-between gap-2">
                     <h3 className="text-xs sm:text-sm font-semibold text-[#E1E0CC] print:text-black">
+                      Advanced Digital Marketing — Delhi Institute of Digital Marketing
+                    </h3>
+                    <span className="text-xs text-gray-500 font-mono print:text-neutral-600">
+                      Apr 2026 – Aug 2026
+                    </span>
+                  </div>
+                </div>
+
+                <div>
+                  <div className="flex items-baseline justify-between gap-2">
+                    <h3 className="text-xs sm:text-sm font-semibold text-[#E1E0CC] print:text-black">
                       BBA — Sikkim Manipal Institute of Technology (SMU)
                     </h3>
                     <span className="text-xs text-gray-500 font-mono print:text-neutral-600">
@@ -325,6 +356,10 @@ export const ResumePage: React.FC<ResumePageProps> = ({ onBackToHome }) => {
               <ul className="space-y-2 text-xs sm:text-sm text-gray-300 print:text-neutral-700">
                 <li className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary print:bg-black" />
+                  Google Ads Search Certification — Google Digital Academy (Skillshop) (2026)
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary print:bg-black" />
                   Fundamentals of Digital Marketing — Google
                 </li>
                 <li className="flex items-center gap-2">
@@ -353,6 +388,7 @@ export const ResumePage: React.FC<ResumePageProps> = ({ onBackToHome }) => {
                 'Google Ads',
                 'Meta Ads Manager',
                 'LinkedIn Ads',
+                'HubSpot',
                 'Google Analytics 4',
                 'Google Tag Manager',
                 'WordPress',
